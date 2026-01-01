@@ -1,0 +1,6 @@
+/Linux/user/file_1.txt
+/Linux/user/file_2.txt
+/Linux/user/find_output.txt
+/Linux/practice/b_renamed.txt
+/Linux/practice/a.txt
+/Linux/practice/backup/a.txt
