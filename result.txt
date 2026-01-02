@@ -1,0 +1,4 @@
+/root/Linux
+cd
+ls
+.git
