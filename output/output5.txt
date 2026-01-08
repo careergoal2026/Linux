@@ -1,0 +1,162 @@
+app_logs/app1.log:/home/user/app_logs/app1.log:2025-09-22 14:01:00 INFO [payment-service] Notification sent to User 104
+app_logs/app1.log:/home/user/app_logs/app1.log:2025-09-22 14:02:00 ERROR [payment-service] Timeout while processing request from 192.168.10.2
+app_logs/app1.log:/home/user/app_logs/app1.log:2025-09-22 14:08:00 WARN [payment-service] User 101 login failed from 192.168.10.3
+app_logs/app1.log:/home/user/app_logs/app1.log:2025-09-22 14:11:00 ERROR [payment-service] Timeout while processing request from 192.168.10.2
+app_logs/app1.log:/home/user/app_logs/app1.log:2025-09-22 14:11:00 INFO [payment-service] Transaction tx1004 completed 4
+app_logs/app1.log:/home/user/app_logs/app1.log:2025-09-22 14:12:00 INFO [payment-service] Transaction tx4001 completed 78
+app_logs/app1.log:/home/user/app_logs/app1.log:2025-09-22 14:14:00 CRITICAL [payment-service] Transaction tx2002 failed 49
+app_logs/app1.log:/home/user/app_logs/app1.log:2025-09-22 14:17:00 INFO [payment-service] User 105 login successful from 172.16.5.4
+app_logs/app1.log:/home/user/app_logs/app1.log:2025-09-22 14:20:00 INFO [payment-service] Notification sent to User 404
+app_logs/app1.log:/home/user/app_logs/app1.log:2025-09-22 14:21:00 WARN [payment-service] User 202 login failed from 10.0.0.8
+app_logs/app1.log:/home/user/app_logs/app1.log:2025-09-22 14:22:00 INFO [payment-service] Notification sent to User 404
+app_logs/app1.log:/home/user/app_logs/app1.log:2025-09-22 14:22:00 WARN [payment-service] User 201 login failed from 172.16.5.4
+app_logs/app1.log:/home/user/app_logs/app1.log:2025-09-22 14:25:00 CRITICAL [payment-service] Transaction tx1001 failed 87
+app_logs/app1.log:/home/user/app_logs/app1.log:2025-09-22 14:27:00 ERROR [payment-service] Timeout while processing request from 10.0.0.8
+app_logs/app1.log:/home/user/app_logs/app1.log:2025-09-22 14:30:00 INFO [payment-service] Notification sent to User 201
+app_logs/app1.log:/home/user/app_logs/app1.log:2025-09-22 14:32:00 WARN [payment-service] User 202 login failed from 192.168.10.2
+app_logs/app1.log:/home/user/app_logs/app1.log:2025-09-22 14:34:00 INFO [payment-service] User 201 login successful from 192.168.10.2
+app_logs/app1.log:/home/user/app_logs/app1.log:2025-09-22 14:35:00 INFO [payment-service] Transaction tx2002 completed 82
+app_logs/app1.log:/home/user/app_logs/app1.log:2025-09-22 14:37:00 INFO [payment-service] Notification sent to User 102
+app_logs/app1.log:/home/user/app_logs/app1.log:2025-09-22 14:38:00 INFO [payment-service] Notification sent to User 303
+app_logs/app1.log:/home/user/app_logs/app1.log:2025-09-22 14:40:00 INFO [payment-service] Transaction tx4001 completed 04
+app_logs/app1.log:/home/user/app_logs/app1.log:2025-09-22 14:49:00 INFO [payment-service] Notification sent to User 202
+app_logs/app1.log:/home/user/app_logs/app1.log:2025-09-22 14:49:00 INFO [payment-service] Notification sent to User 104
+app_logs/app1.log:/home/user/app_logs/app1.log:2025-09-22 14:49:00 INFO [payment-service] Notification sent to User 103
+app_logs/app1.log:/home/user/app_logs/app1.log:2025-09-22 14:50:00 CRITICAL [payment-service] Transaction tx4001 failed 44
+app_logs/app1.log:/home/user/app_logs/app1.log:2025-09-22 14:55:00 CRITICAL [payment-service] Transaction tx2001 failed 79
+app_logs/app1.log:/home/user/app_logs/app1.log:2025-09-22 14:59:00 INFO [payment-service] Transaction tx1004 completed 85
+app_logs/app1.log:/home/user/app_logs/app2.log:2025-09-22 14:01:00 INFO [payment-service] Notification sent to User 104
+app_logs/app1.log:/home/user/app_logs/app2.log:2025-09-22 14:02:00 ERROR [payment-service] Timeout while processing request from 192.168.10.2
+app_logs/app1.log:/home/user/app_logs/app2.log:2025-09-22 14:08:00 WARN [payment-service] User 101 login failed from 192.168.10.3
+app_logs/app1.log:/home/user/app_logs/app2.log:2025-09-22 14:11:00 ERROR [payment-service] Timeout while processing request from 192.168.10.2
+app_logs/app1.log:/home/user/app_logs/app2.log:2025-09-22 14:11:00 INFO [payment-service] Transaction tx1004 completed 4
+app_logs/app1.log:/home/user/app_logs/app2.log:2025-09-22 14:12:00 INFO [payment-service] Transaction tx4001 completed 78
+app_logs/app1.log:/home/user/app_logs/app2.log:2025-09-22 14:14:00 CRITICAL [payment-service] Transaction tx2002 failed 49
+app_logs/app1.log:/home/user/app_logs/app2.log:2025-09-22 14:17:00 INFO [payment-service] User 105 login successful from 172.16.5.4
+app_logs/app1.log:/home/user/app_logs/app2.log:2025-09-22 14:20:00 INFO [payment-service] Notification sent to User 404
+app_logs/app1.log:/home/user/app_logs/app2.log:2025-09-22 14:21:00 WARN [payment-service] User 202 login failed from 10.0.0.8
+app_logs/app1.log:/home/user/app_logs/app2.log:2025-09-22 14:22:00 INFO [payment-service] Notification sent to User 404
+app_logs/app1.log:/home/user/app_logs/app2.log:2025-09-22 14:22:00 WARN [payment-service] User 201 login failed from 172.16.5.4
+app_logs/app1.log:/home/user/app_logs/app2.log:2025-09-22 14:25:00 CRITICAL [payment-service] Transaction tx1001 failed 87
+app_logs/app1.log:/home/user/app_logs/app2.log:2025-09-22 14:27:00 ERROR [payment-service] Timeout while processing request from 10.0.0.8
+app_logs/app1.log:/home/user/app_logs/app2.log:2025-09-22 14:30:00 INFO [payment-service] Notification sent to User 201
+app_logs/app1.log:/home/user/app_logs/app2.log:2025-09-22 14:32:00 WARN [payment-service] User 202 login failed from 192.168.10.2
+app_logs/app1.log:/home/user/app_logs/app2.log:2025-09-22 14:34:00 INFO [payment-service] User 201 login successful from 192.168.10.2
+app_logs/app1.log:/home/user/app_logs/app2.log:2025-09-22 14:35:00 INFO [payment-service] Transaction tx2002 completed 82
+app_logs/app1.log:/home/user/app_logs/app2.log:2025-09-22 14:37:00 INFO [payment-service] Notification sent to User 102
+app_logs/app1.log:/home/user/app_logs/app2.log:2025-09-22 14:38:00 INFO [payment-service] Notification sent to User 303
+app_logs/app1.log:/home/user/app_logs/app2.log:2025-09-22 14:40:00 INFO [payment-service] Transaction tx4001 completed 04
+app_logs/app1.log:/home/user/app_logs/app2.log:2025-09-22 14:49:00 INFO [payment-service] Notification sent to User 202
+app_logs/app1.log:/home/user/app_logs/app2.log:2025-09-22 14:49:00 INFO [payment-service] Notification sent to User 104
+app_logs/app1.log:/home/user/app_logs/app2.log:2025-09-22 14:49:00 INFO [payment-service] Notification sent to User 103
+app_logs/app1.log:/home/user/app_logs/app2.log:2025-09-22 14:50:00 CRITICAL [payment-service] Transaction tx4001 failed 44
+app_logs/app1.log:/home/user/app_logs/app2.log:2025-09-22 14:55:00 CRITICAL [payment-service] Transaction tx2001 failed 79
+app_logs/app1.log:/home/user/app_logs/app2.log:2025-09-22 14:59:00 INFO [payment-service] Transaction tx1004 completed 85
+app_logs/app1.log:2025-09-22 14:01:00 INFO [payment-service] Notification sent to User 104
+app_logs/app1.log:2025-09-22 14:02:00 ERROR [payment-service] Timeout while processing request from 192.168.10.2
+app_logs/app1.log:2025-09-22 14:08:00 WARN [payment-service] User 101 login failed from 192.168.10.3
+app_logs/app1.log:2025-09-22 14:11:00 ERROR [payment-service] Timeout while processing request from 192.168.10.2
+app_logs/app1.log:2025-09-22 14:11:00 INFO [payment-service] Transaction tx1004 completed 4
+app_logs/app1.log:2025-09-22 14:12:00 INFO [payment-service] Transaction tx4001 completed 78
+app_logs/app1.log:2025-09-22 14:14:00 CRITICAL [payment-service] Transaction tx2002 failed 49
+app_logs/app1.log:2025-09-22 14:17:00 INFO [payment-service] User 105 login successful from 172.16.5.4
+app_logs/app1.log:2025-09-22 14:20:00 INFO [payment-service] Notification sent to User 404
+app_logs/app1.log:2025-09-22 14:21:00 WARN [payment-service] User 202 login failed from 10.0.0.8
+app_logs/app1.log:2025-09-22 14:22:00 INFO [payment-service] Notification sent to User 404
+app_logs/app1.log:2025-09-22 14:22:00 WARN [payment-service] User 201 login failed from 172.16.5.4
+app_logs/app1.log:2025-09-22 14:25:00 CRITICAL [payment-service] Transaction tx1001 failed 87
+app_logs/app1.log:2025-09-22 14:27:00 ERROR [payment-service] Timeout while processing request from 10.0.0.8
+app_logs/app1.log:2025-09-22 14:30:00 INFO [payment-service] Notification sent to User 201
+app_logs/app1.log:2025-09-22 14:32:00 WARN [payment-service] User 202 login failed from 192.168.10.2
+app_logs/app1.log:2025-09-22 14:34:00 INFO [payment-service] User 201 login successful from 192.168.10.2
+app_logs/app1.log:2025-09-22 14:35:00 INFO [payment-service] Transaction tx2002 completed 82
+app_logs/app1.log:2025-09-22 14:37:00 INFO [payment-service] Notification sent to User 102
+app_logs/app1.log:2025-09-22 14:38:00 INFO [payment-service] Notification sent to User 303
+app_logs/app1.log:2025-09-22 14:40:00 INFO [payment-service] Transaction tx4001 completed 04
+app_logs/app1.log:2025-09-22 14:49:00 INFO [payment-service] Notification sent to User 202
+app_logs/app1.log:2025-09-22 14:49:00 INFO [payment-service] Notification sent to User 104
+app_logs/app1.log:2025-09-22 14:49:00 INFO [payment-service] Notification sent to User 103
+app_logs/app1.log:2025-09-22 14:50:00 CRITICAL [payment-service] Transaction tx4001 failed 44
+app_logs/app1.log:2025-09-22 14:55:00 CRITICAL [payment-service] Transaction tx2001 failed 79
+app_logs/app1.log:2025-09-22 14:59:00 INFO [payment-service] Transaction tx1004 completed 85
+app_logs/app2.log:/home/user/app_logs/app1.log:2025-09-22 14:01:00 INFO [payment-service] Notification sent to User 104
+app_logs/app2.log:/home/user/app_logs/app1.log:2025-09-22 14:02:00 ERROR [payment-service] Timeout while processing request from 192.168.10.2
+app_logs/app2.log:/home/user/app_logs/app1.log:2025-09-22 14:08:00 WARN [payment-service] User 101 login failed from 192.168.10.3
+app_logs/app2.log:/home/user/app_logs/app1.log:2025-09-22 14:11:00 ERROR [payment-service] Timeout while processing request from 192.168.10.2
+app_logs/app2.log:/home/user/app_logs/app1.log:2025-09-22 14:11:00 INFO [payment-service] Transaction tx1004 completed 4
+app_logs/app2.log:/home/user/app_logs/app1.log:2025-09-22 14:12:00 INFO [payment-service] Transaction tx4001 completed 78
+app_logs/app2.log:/home/user/app_logs/app1.log:2025-09-22 14:14:00 CRITICAL [payment-service] Transaction tx2002 failed 49
+app_logs/app2.log:/home/user/app_logs/app1.log:2025-09-22 14:17:00 INFO [payment-service] User 105 login successful from 172.16.5.4
+app_logs/app2.log:/home/user/app_logs/app1.log:2025-09-22 14:20:00 INFO [payment-service] Notification sent to User 404
+app_logs/app2.log:/home/user/app_logs/app1.log:2025-09-22 14:21:00 WARN [payment-service] User 202 login failed from 10.0.0.8
+app_logs/app2.log:/home/user/app_logs/app1.log:2025-09-22 14:22:00 INFO [payment-service] Notification sent to User 404
+app_logs/app2.log:/home/user/app_logs/app1.log:2025-09-22 14:22:00 WARN [payment-service] User 201 login failed from 172.16.5.4
+app_logs/app2.log:/home/user/app_logs/app1.log:2025-09-22 14:25:00 CRITICAL [payment-service] Transaction tx1001 failed 87
+app_logs/app2.log:/home/user/app_logs/app1.log:2025-09-22 14:27:00 ERROR [payment-service] Timeout while processing request from 10.0.0.8
+app_logs/app2.log:/home/user/app_logs/app1.log:2025-09-22 14:30:00 INFO [payment-service] Notification sent to User 201
+app_logs/app2.log:/home/user/app_logs/app1.log:2025-09-22 14:32:00 WARN [payment-service] User 202 login failed from 192.168.10.2
+app_logs/app2.log:/home/user/app_logs/app1.log:2025-09-22 14:34:00 INFO [payment-service] User 201 login successful from 192.168.10.2
+app_logs/app2.log:/home/user/app_logs/app1.log:2025-09-22 14:35:00 INFO [payment-service] Transaction tx2002 completed 82
+app_logs/app2.log:/home/user/app_logs/app1.log:2025-09-22 14:37:00 INFO [payment-service] Notification sent to User 102
+app_logs/app2.log:/home/user/app_logs/app1.log:2025-09-22 14:38:00 INFO [payment-service] Notification sent to User 303
+app_logs/app2.log:/home/user/app_logs/app1.log:2025-09-22 14:40:00 INFO [payment-service] Transaction tx4001 completed 04
+app_logs/app2.log:/home/user/app_logs/app1.log:2025-09-22 14:49:00 INFO [payment-service] Notification sent to User 202
+app_logs/app2.log:/home/user/app_logs/app1.log:2025-09-22 14:49:00 INFO [payment-service] Notification sent to User 104
+app_logs/app2.log:/home/user/app_logs/app1.log:2025-09-22 14:49:00 INFO [payment-service] Notification sent to User 103
+app_logs/app2.log:/home/user/app_logs/app1.log:2025-09-22 14:50:00 CRITICAL [payment-service] Transaction tx4001 failed 44
+app_logs/app2.log:/home/user/app_logs/app1.log:2025-09-22 14:55:00 CRITICAL [payment-service] Transaction tx2001 failed 79
+app_logs/app2.log:/home/user/app_logs/app1.log:2025-09-22 14:59:00 INFO [payment-service] Transaction tx1004 completed 85
+app_logs/app2.log:/home/user/app_logs/app2.log:2025-09-22 14:01:00 INFO [payment-service] Notification sent to User 104
+app_logs/app2.log:/home/user/app_logs/app2.log:2025-09-22 14:02:00 ERROR [payment-service] Timeout while processing request from 192.168.10.2
+app_logs/app2.log:/home/user/app_logs/app2.log:2025-09-22 14:08:00 WARN [payment-service] User 101 login failed from 192.168.10.3
+app_logs/app2.log:/home/user/app_logs/app2.log:2025-09-22 14:11:00 ERROR [payment-service] Timeout while processing request from 192.168.10.2
+app_logs/app2.log:/home/user/app_logs/app2.log:2025-09-22 14:11:00 INFO [payment-service] Transaction tx1004 completed 4
+app_logs/app2.log:/home/user/app_logs/app2.log:2025-09-22 14:12:00 INFO [payment-service] Transaction tx4001 completed 78
+app_logs/app2.log:/home/user/app_logs/app2.log:2025-09-22 14:14:00 CRITICAL [payment-service] Transaction tx2002 failed 49
+app_logs/app2.log:/home/user/app_logs/app2.log:2025-09-22 14:17:00 INFO [payment-service] User 105 login successful from 172.16.5.4
+app_logs/app2.log:/home/user/app_logs/app2.log:2025-09-22 14:20:00 INFO [payment-service] Notification sent to User 404
+app_logs/app2.log:/home/user/app_logs/app2.log:2025-09-22 14:21:00 WARN [payment-service] User 202 login failed from 10.0.0.8
+app_logs/app2.log:/home/user/app_logs/app2.log:2025-09-22 14:22:00 INFO [payment-service] Notification sent to User 404
+app_logs/app2.log:/home/user/app_logs/app2.log:2025-09-22 14:22:00 WARN [payment-service] User 201 login failed from 172.16.5.4
+app_logs/app2.log:/home/user/app_logs/app2.log:2025-09-22 14:25:00 CRITICAL [payment-service] Transaction tx1001 failed 87
+app_logs/app2.log:/home/user/app_logs/app2.log:2025-09-22 14:27:00 ERROR [payment-service] Timeout while processing request from 10.0.0.8
+app_logs/app2.log:/home/user/app_logs/app2.log:2025-09-22 14:30:00 INFO [payment-service] Notification sent to User 201
+app_logs/app2.log:/home/user/app_logs/app2.log:2025-09-22 14:32:00 WARN [payment-service] User 202 login failed from 192.168.10.2
+app_logs/app2.log:/home/user/app_logs/app2.log:2025-09-22 14:34:00 INFO [payment-service] User 201 login successful from 192.168.10.2
+app_logs/app2.log:/home/user/app_logs/app2.log:2025-09-22 14:35:00 INFO [payment-service] Transaction tx2002 completed 82
+app_logs/app2.log:/home/user/app_logs/app2.log:2025-09-22 14:37:00 INFO [payment-service] Notification sent to User 102
+app_logs/app2.log:/home/user/app_logs/app2.log:2025-09-22 14:38:00 INFO [payment-service] Notification sent to User 303
+app_logs/app2.log:/home/user/app_logs/app2.log:2025-09-22 14:40:00 INFO [payment-service] Transaction tx4001 completed 04
+app_logs/app2.log:/home/user/app_logs/app2.log:2025-09-22 14:49:00 INFO [payment-service] Notification sent to User 202
+app_logs/app2.log:/home/user/app_logs/app2.log:2025-09-22 14:49:00 INFO [payment-service] Notification sent to User 104
+app_logs/app2.log:/home/user/app_logs/app2.log:2025-09-22 14:49:00 INFO [payment-service] Notification sent to User 103
+app_logs/app2.log:/home/user/app_logs/app2.log:2025-09-22 14:50:00 CRITICAL [payment-service] Transaction tx4001 failed 44
+app_logs/app2.log:/home/user/app_logs/app2.log:2025-09-22 14:55:00 CRITICAL [payment-service] Transaction tx2001 failed 79
+app_logs/app2.log:/home/user/app_logs/app2.log:2025-09-22 14:59:00 INFO [payment-service] Transaction tx1004 completed 85
+app_logs/app2.log:2025-09-22 14:01:00 INFO [payment-service] Notification sent to User 104
+app_logs/app2.log:2025-09-22 14:02:00 ERROR [payment-service] Timeout while processing request from 192.168.10.2
+app_logs/app2.log:2025-09-22 14:08:00 WARN [payment-service] User 101 login failed from 192.168.10.3
+app_logs/app2.log:2025-09-22 14:11:00 ERROR [payment-service] Timeout while processing request from 192.168.10.2
+app_logs/app2.log:2025-09-22 14:11:00 INFO [payment-service] Transaction tx1004 completed 4
+app_logs/app2.log:2025-09-22 14:12:00 INFO [payment-service] Transaction tx4001 completed 78
+app_logs/app2.log:2025-09-22 14:14:00 CRITICAL [payment-service] Transaction tx2002 failed 49
+app_logs/app2.log:2025-09-22 14:17:00 INFO [payment-service] User 105 login successful from 172.16.5.4
+app_logs/app2.log:2025-09-22 14:20:00 INFO [payment-service] Notification sent to User 404
+app_logs/app2.log:2025-09-22 14:21:00 WARN [payment-service] User 202 login failed from 10.0.0.8
+app_logs/app2.log:2025-09-22 14:22:00 INFO [payment-service] Notification sent to User 404
+app_logs/app2.log:2025-09-22 14:22:00 WARN [payment-service] User 201 login failed from 172.16.5.4
+app_logs/app2.log:2025-09-22 14:25:00 CRITICAL [payment-service] Transaction tx1001 failed 87
+app_logs/app2.log:2025-09-22 14:27:00 ERROR [payment-service] Timeout while processing request from 10.0.0.8
+app_logs/app2.log:2025-09-22 14:30:00 INFO [payment-service] Notification sent to User 201
+app_logs/app2.log:2025-09-22 14:32:00 WARN [payment-service] User 202 login failed from 192.168.10.2
+app_logs/app2.log:2025-09-22 14:34:00 INFO [payment-service] User 201 login successful from 192.168.10.2
+app_logs/app2.log:2025-09-22 14:35:00 INFO [payment-service] Transaction tx2002 completed 82
+app_logs/app2.log:2025-09-22 14:37:00 INFO [payment-service] Notification sent to User 102
+app_logs/app2.log:2025-09-22 14:38:00 INFO [payment-service] Notification sent to User 303
+app_logs/app2.log:2025-09-22 14:40:00 INFO [payment-service] Transaction tx4001 completed 04
+app_logs/app2.log:2025-09-22 14:49:00 INFO [payment-service] Notification sent to User 202
+app_logs/app2.log:2025-09-22 14:49:00 INFO [payment-service] Notification sent to User 104
+app_logs/app2.log:2025-09-22 14:49:00 INFO [payment-service] Notification sent to User 103
+app_logs/app2.log:2025-09-22 14:50:00 CRITICAL [payment-service] Transaction tx4001 failed 44
+app_logs/app2.log:2025-09-22 14:55:00 CRITICAL [payment-service] Transaction tx2001 failed 79
+app_logs/app2.log:2025-09-22 14:59:00 INFO [payment-service] Transaction tx1004 completed 85
