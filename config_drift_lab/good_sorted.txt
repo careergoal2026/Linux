@@ -1,0 +1,6 @@
+# Baseline server configuration
+DocumentRoot /var/www/html
+ErrorLog /var/log/apache2/error.log
+Listen 80
+LogLevel warn
+ServerName localhost

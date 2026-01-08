@@ -1,0 +1,6 @@
+# Drifted server configuration
+DocumentRoot /var/www/html
+ErrorLog /var/log/apache2/error.log
+Listen 8080
+LogLevel info
+ServerName localhost
