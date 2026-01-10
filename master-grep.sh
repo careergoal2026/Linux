@@ -36,7 +36,7 @@ Redirect the result to: output/output5.txt
 "
 grep -r 'CRITICAL' app_logs/ >output/output3.txt
 grep -r 'login failed' app_logs/ > output/output4.txt
-awk '/login failed/ {print $NF} app_logs/*' | sort -u >output/output6.txt
-
+awk '/login failed/ {print $NF}' app_logs/* | sort -u >output/output6.txt
+grep -r 'Transaction' app_logs/ | tr -d '$'| awk '$NF>500 {print -r $6}'> output/output7.txt 
 
 
