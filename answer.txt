@@ -1,0 +1,4 @@
+pwd
+cd task_1
+ls
+.git
