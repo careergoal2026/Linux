@@ -27,10 +27,37 @@ echo "Enough space available"
 echo "#check if database exist or not. If not, exit the script"
 DATABASE_NAME="my_database"
 DATABASE_FILE="Linux/${DATABASE_NAME}.db"
-
+touch "$DATABASE_FILE"
 if [ ! -f "$DATABASE_FILE" ];then
   echo "No database exists...creating one"
-  touch "$DATABASE_FILE"
   exit 1
 fi
 echo "Database exists"
+
+BACKUP_FILE="$BACKUP_DIR/${DATABASE_NAME}_BACKUP_$(date +%Y%m%d_%H%M%S).bak"
+
+echo "performing backup "
+
+echo "dummy backup content for $DATABASE_NAME" >"$BACKUP_FILE"
+
+if [ ! -f "$BACKUP_FILE" ];then
+  echo "No file created"
+  exit 1
+fi
+echo "File created successfully"
+
+echo "#Check if the size of the backup is small or large"
+BACKUP_FILE_SIZE_MB=$(du -m "$BACKUP_FILE" | cut -f1)
+if [ "$BACKUP_FILE_SIZE_MB" -lt 1 ];then
+  echo "file size too small"
+else 
+  echo "file size too large"
+fi 
+
+echo "backup process completed successfully"
+exit 0
+
+
+
+
+
