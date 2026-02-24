@@ -16,10 +16,21 @@ echo "#Check if enough space is there for backup dir or not, if not, exit the sc
 
 REQUIRED_SPACE_IN_MB=10
 AVAILABLE_SPACE=$(df -m "$BACKUP_DIR" | awk 'NR==2 {print $4}')
+echo "$AVAILABLE_SPACE"
 if [ "$AVAILABLE_SPACE" -lt "$REQUIRED_SPACE_IN_MB" ];then
-  echo "Not enought space. Required space is : {$REQUIRED_SPACE_IN_MB} Available space is :{$AVAILABLE_SPACE}"
+  echo "Not enough space. Required space is : $REQUIRED_SPACE_IN_MB Available space is :$AVAILABLE_SPACE"
   exit 1
-echo "Enough space available"
 fi
+echo "Enough space available"
 
 
+echo "#check if database exist or not. If not, exit the script"
+DATABASE_NAME="my_database"
+DATABASE_FILE="Linux/${DATABASE_NAME}.db"
+
+if [ ! -f "$DATABASE_FILE" ];then
+  echo "No database exists...creating one"
+  touch "$DATABASE_FILE"
+  exit 1
+fi
+echo "Database exists"
