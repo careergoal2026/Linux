@@ -1,8 +1,9 @@
 #!/bin/bash
+IFS=","
 read name1 name2
 
 echo $name1
-echo $name2
+#echo $name2
 
 {
 
