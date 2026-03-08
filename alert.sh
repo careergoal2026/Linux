@@ -1,5 +1,6 @@
 #!/bin/bash
- 
+
+set -x 
 # Print an alert when disk usage is runnning low
 
 THRESHOLD=25
