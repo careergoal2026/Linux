@@ -5,13 +5,13 @@
 # if not running start the process
 
 process=$1
-if pgrep -x $process > /dev/null 
+if pgrep -x "$process" > /dev/null 
 then 
  echo "process $process running"
 else
   echo "process $process not running..."
   echo "starting the process..."
-  systemctl start $process
+  systemctl start "$process"
 fi
 
 
