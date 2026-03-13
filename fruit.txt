@@ -1,0 +1,2 @@
+apple,red,10
+banana,yellow,20
