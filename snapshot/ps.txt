@@ -1,0 +1,150 @@
+timestamp :2026-04-23_185423
+-------------------------------PS snapshot---------------------------
+%MEMCMDPID
+0.2bash1920
+-------------------------------TOP snapshot---------------------------
+top - 18:54:23 up  1:19,  0 user,  load average: 0.00, 0.00, 0.00
+Tasks:   1 total,   0 running,   1 sleeping,   0 stopped,   0 zombie
+%Cpu(s):  0.0 us,  9.1 sy,  0.0 ni, 90.9 id,  0.0 wa,  0.0 hi,  0.0 si,  0.0 st 
+MiB Mem :   1903.2 total,    484.2 free,    475.9 used,   1136.3 buff/cache     
+MiB Swap:   1024.0 total,   1024.0 free,      0.0 used.   1427.4 avail Mem 
+
+    PID USER      PR  NI    VIRT    RES    SHR S  %CPU  %MEM     TIME+ COMMAND
+   1920 root      20   0    4832   4220   3388 S   0.0   0.2   0:00.07 bash
+-------------------------------PROC snapshot---------------------------
+Name:	bash
+Umask:	0022
+State:	S (sleeping)
+Tgid:	1920
+Ngid:	0
+Pid:	1920
+PPid:	1392
+TracerPid:	0
+Uid:	0	0	0	0
+Gid:	0	0	0	0
+FDSize:	256
+Groups:	0 
+NStgid:	1920
+NSpid:	1920
+NSpgid:	1920
+NSsid:	1920
+Kthread:	0
+VmPeak:	    4860 kB
+VmSize:	    4832 kB
+VmLck:	       0 kB
+VmPin:	       0 kB
+VmHWM:	    4220 kB
+VmRSS:	    4220 kB
+RssAnon:	     832 kB
+RssFile:	    3388 kB
+RssShmem:	       0 kB
+VmData:	     812 kB
+VmStk:	     132 kB
+VmExe:	     956 kB
+VmLib:	    1824 kB
+VmPTE:	      56 kB
+VmSwap:	       0 kB
+HugetlbPages:	       0 kB
+CoreDumping:	0
+THP_enabled:	1
+untag_mask:	0xffffffffffffffff
+Threads:	1
+SigQ:	1/7459
+SigPnd:	0000000000000000
+ShdPnd:	0000000000000000
+SigBlk:	0000000000010000
+SigIgn:	0000000000384004
+SigCgt:	000000004b813efb
+CapInh:	0000000000000000
+CapPrm:	000001ffffffffff
+CapEff:	000001ffffffffff
+CapBnd:	000001ffffffffff
+CapAmb:	0000000000000000
+NoNewPrivs:	0
+Seccomp:	0
+Seccomp_filters:	0
+Speculation_Store_Bypass:	thread vulnerable
+SpeculationIndirectBranch:	conditional enabled
+Cpus_allowed:	1
+Cpus_allowed_list:	0
+Mems_allowed:	00000000,00000000,00000000,00000000,00000000,00000000,00000000,00000000,00000000,00000000,00000000,00000000,00000000,00000000,00000000,00000000,00000000,00000000,00000000,00000000,00000000,00000000,00000000,00000000,00000000,00000000,00000000,00000000,00000000,00000000,00000000,00000001
+Mems_allowed_list:	0
+voluntary_ctxt_switches:	694
+nonvoluntary_ctxt_switches:	651
+x86_Thread_features:	
+x86_Thread_features_locked:	
+timestamp :2026-04-23_185423
+-------------------------------PS snapshot---------------------------
+%MEMCMDPID
+0.2/bin/bash1951
+-------------------------------TOP snapshot---------------------------
+top - 18:54:23 up  1:19,  0 user,  load average: 0.00, 0.00, 0.00
+Tasks:   1 total,   0 running,   1 sleeping,   0 stopped,   0 zombie
+%Cpu(s):  0.0 us,  0.0 sy,  0.0 ni,100.0 id,  0.0 wa,  0.0 hi,  0.0 si,  0.0 st 
+MiB Mem :   1903.2 total,    484.2 free,    475.9 used,   1136.3 buff/cache     
+MiB Swap:   1024.0 total,   1024.0 free,      0.0 used.   1427.4 avail Mem 
+
+    PID USER      PR  NI    VIRT    RES    SHR S  %CPU  %MEM     TIME+ COMMAND
+   1951 root      39  19    4588   3996   3388 S   0.0   0.2   0:00.23 bash
+-------------------------------PROC snapshot---------------------------
+Name:	bash
+Umask:	0022
+State:	S (sleeping)
+Tgid:	1951
+Ngid:	0
+Pid:	1951
+PPid:	1343
+TracerPid:	0
+Uid:	0	0	0	0
+Gid:	0	0	0	0
+FDSize:	256
+Groups:	0 
+NStgid:	1951
+NSpid:	1951
+NSpgid:	1951
+NSsid:	1951
+Kthread:	0
+VmPeak:	    4588 kB
+VmSize:	    4588 kB
+VmLck:	       0 kB
+VmPin:	       0 kB
+VmHWM:	    3996 kB
+VmRSS:	    3996 kB
+RssAnon:	     608 kB
+RssFile:	    3388 kB
+RssShmem:	       0 kB
+VmData:	     568 kB
+VmStk:	     132 kB
+VmExe:	     956 kB
+VmLib:	    1824 kB
+VmPTE:	      48 kB
+VmSwap:	       0 kB
+HugetlbPages:	       0 kB
+CoreDumping:	0
+THP_enabled:	1
+untag_mask:	0xffffffffffffffff
+Threads:	1
+SigQ:	1/7459
+SigPnd:	0000000000000000
+ShdPnd:	0000000000000000
+SigBlk:	0000000000000000
+SigIgn:	0000000000384004
+SigCgt:	000000004b813efb
+CapInh:	0000000000000000
+CapPrm:	000001ffffffffff
+CapEff:	000001ffffffffff
+CapBnd:	000001ffffffffff
+CapAmb:	0000000000000000
+NoNewPrivs:	0
+Seccomp:	0
+Seccomp_filters:	0
+Speculation_Store_Bypass:	thread vulnerable
+SpeculationIndirectBranch:	conditional enabled
+Cpus_allowed:	1
+Cpus_allowed_list:	0
+Mems_allowed:	00000000,00000000,00000000,00000000,00000000,00000000,00000000,00000000,00000000,00000000,00000000,00000000,00000000,00000000,00000000,00000000,00000000,00000000,00000000,00000000,00000000,00000000,00000000,00000000,00000000,00000000,00000000,00000000,00000000,00000000,00000000,00000001
+Mems_allowed_list:	0
+voluntary_ctxt_switches:	12
+nonvoluntary_ctxt_switches:	813
+x86_Thread_features:	
+x86_Thread_features_locked:	
